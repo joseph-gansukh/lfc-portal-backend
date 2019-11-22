@@ -1,4 +1,4 @@
-class SessoinsController < ApplicationController
+class SessionsController < ApplicationController
   include CurrentUserConcern
 
   def create
