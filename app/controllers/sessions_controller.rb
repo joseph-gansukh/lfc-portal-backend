@@ -10,7 +10,7 @@ class SessionsController < ApplicationController
       session[:user_id] = user.id
       render json: {
         status: :created, 
-        logged_id: true, 
+        logged_in: true, 
         user: user
       }
     else
@@ -32,6 +32,7 @@ class SessionsController < ApplicationController
   end
 
   def logout 
+    p "xxxxxxxxxxxxx"
     reset_session 
     render json: { status: 200, logged_out: true}
   end
