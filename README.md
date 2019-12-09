@@ -1,25 +1,29 @@
-# README
+# LFC PORTAL
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Project Overview
 
-Things you may want to cover:
+* LFC portal is a casket distributor website solely servicing funeral homes and funeral directors. 
 
-* Ruby version
+# Technologies and Frameworks
 
-* System dependencies
+* Ruby on Rails
+* Developed a Rails API with product, user, and session endpoints
+* Database: postgreSQL
 
-* Configuration
+# Project Functionality
 
-* Database creation
+* As an admin, user can add, update, view, and delete products. 
+* As a customer, user can only view products and must be logged in to view prices. 
 
-* Database initialization
+# Future features to implement
 
-* How to run the test suite
+* Admin dashboard 
+* Order submission 
 
-* Services (job queues, cache servers, search engines, etc.)
+# Instructions for Running
 
-* Deployment instructions
-
-* ...
-# lfc-portal-backend
+1. run bundle install 
+2. run rails server -p 3000
+2. Sign in as an existing user: 
+  admin email: admin@lfc.com  password: admin
+  customer email: customer@lfc.com  password: customer
