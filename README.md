@@ -24,6 +24,6 @@
 
 1. run bundle install 
 2. run rails server -p 3000
-2. Sign in as an existing user: 
+3. Sign in as an existing user: 
   admin email: admin@lfc.com  password: admin
   customer email: customer@lfc.com  password: customer
